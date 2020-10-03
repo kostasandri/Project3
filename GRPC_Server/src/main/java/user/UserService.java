@@ -36,6 +36,8 @@ public class UserService extends userImplBase {
 		responseObserver.onNext(resp.build());
 		responseObserver.onCompleted();
 		
+		System.out.println("Out");
+		
 	}
 
 	@Override
